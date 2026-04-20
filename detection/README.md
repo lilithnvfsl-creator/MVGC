@@ -43,7 +43,7 @@ Experiments on MS COCO and BDD100K datasets show that MVGC improves object detec
 ## 🚀 Highlights & Key Components
 
 * **MSVGA (Multi-scale Vision Graph Attention):** Eliminates the computationally expensive KNN bottleneck found in traditional ViGs by utilizing a dynamic, sparse multi-scale connection strategy with linear complexity.
-* **CPE :** Integrates dynamically generated positional information before graph construction to significantly enhance local feature representation.
+* **CPE:** Integrates dynamically generated positional information before graph construction to significantly enhance local feature representation.
 * **MRConv:** Alleviates the over-smoothing problem in deep GCNs.
 * **Edge-Optimized:** Demonstrated exceptional real-time inference latency (1.652 ms) and high mIoU (46.94%) on the **NVIDIA Jetson AGX Orin 64GB Developer Kit** via TensorRT.
 
