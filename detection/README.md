@@ -1,8 +1,6 @@
 # Dynamic Multi-scale Vision Graph Convolution for Efficient Edge Perception in Autonomous Driving (MVGC)
 
 
-> **🔔 Important Notice:** > This code repository is directly related to our manuscript currently under review at ***The Visual Computer***. If you find our work, code, or data helpful in your research, please consider citing our manuscript (see [Citation](#citation)).
-
 ---
 
 ## 📖 Abstract
@@ -14,8 +12,8 @@ Experiments on MS COCO and BDD100K datasets show that MVGC improves object detec
 ## 🚀 Highlights & Key Components
 
 * **MSVGA (Multi-scale Vision Graph Attention):** Eliminates the computationally expensive KNN bottleneck found in traditional ViGs by utilizing a dynamic, sparse multi-scale connection strategy with linear complexity.
-* **CPE (Conditional Position Encoding):** Integrates dynamically generated positional information before graph construction to significantly enhance local feature representation.
-* **MRConv4d (Max-Relative Graph Convolution):** Alleviates the over-smoothing problem in deep GCNs.
+* **CPE:** Integrates dynamically generated positional information before graph construction to significantly enhance local feature representation.
+* **Conv:** Alleviates the over-smoothing problem in deep GCNs.
 * **Edge-Optimized:** Demonstrated exceptional real-time inference latency (1.652 ms) and high mIoU (46.94%) on the **NVIDIA Jetson AGX Orin 64GB Developer Kit** via TensorRT.
 
 The core network architecture can be found in `mvgc_backbone.py`.
